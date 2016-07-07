@@ -5,7 +5,7 @@ start = function(){
     try{
       ar = x[0].MP.api;
       if(ar){
-        alert("Leaked credentials: "+ar.apiKey+' / '+ar.apiSecret);
+        alert("Leaked credentials Key: "+ar.apiKey+' Secret: '+ar.apiSecret);
         clearInterval(int);
       }
     }catch(e){}
